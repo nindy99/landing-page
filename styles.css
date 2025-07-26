@@ -1,0 +1,170 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    flex-grow: 1 1 auto;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 80px;
+}
+
+
+.header .left {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.header .right {
+    display: flex;
+    font-size: 12px;
+    gap: 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    padding: 80px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero .left .hero-text {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.hero .left button {
+    align-self: flex-start; 
+    background-color: #3882F6;
+    color:#F9FAF8;
+}
+
+button {
+    border-radius: 8px;
+    padding: 5px 16px;
+    border-style: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.info-header {
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 36px;
+}
+
+.box {
+    height:120px;
+    width: 120px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    text-align: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    gap: 8px;
+   
+}
+
+.quote .first {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote .second {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-card {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 700px;
+    justify-content: space-between;
+    padding: 30px 100px;
+    color: #F9FAF8;
+    margin: 50px 50px;
+}
+
+.sign-up-card .first {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-card button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+}
